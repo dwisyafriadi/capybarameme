@@ -138,7 +138,7 @@ def clear_task(task_name, task_type, task_url):
                 print("Opening the task link...")
                 webbrowser.open(task_url)  # Open the link in a web browser
                 print("Waiting for 15 seconds...")
-                time.sleep(15)  # Wait for 15 seconds before continuing
+                time.sleep(3)  # Wait for 15 seconds before continuing
             else:
                 print("No URL available to open for this task.")
         else:
