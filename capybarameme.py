@@ -159,7 +159,7 @@ if __name__ == "__main__":
                 print(f"Opening task link for: {task['name']}")
                 webbrowser.open(task['url'])  # Open the task link
                 print("Waiting for 15 seconds...")
-                time.sleep(15)  # Wait for 15 seconds after opening the link
+                time.sleep(3)  # Wait for 15 seconds after opening the link
                 # Then attempt to clear the task
                 clear_task(task["name"], task["type"], task.get("url"))
             else:
